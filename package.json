@@ -5,7 +5,7 @@
   "main": "dist/worker-plugin.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/GoogleChromeLabs/worker-plugin.git"
+    "url": "git+https://github.com/AntonyChiossi/worker-plugin.git"
   },
   "scripts": {
     "build": "microbundle --raw --inline none --format cjs --no-compress src/*.js",
@@ -87,7 +87,7 @@
   "bugs": {
     "url": "https://github.com/GoogleChromeLabs/worker-plugin/issues"
   },
-  "homepage": "https://github.com/GoogleChromeLabs/worker-plugin#readme",
+  "homepage": "https://github.com/AntonyChiossi/worker-plugin#readme",
   "directories": {
     "test": "test"
   }
