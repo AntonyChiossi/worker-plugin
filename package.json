@@ -1,9 +1,12 @@
 {
-  "name": "worker-plugin",
+  "name": "worker-plugin-length-undefined-fix",
   "version": "5.0.0",
   "description": "Webpack plugin to bundle Workers automagically.",
   "main": "dist/worker-plugin.js",
-  "repository": "GoogleChromeLabs/worker-plugin",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GoogleChromeLabs/worker-plugin.git"
+  },
   "scripts": {
     "build": "microbundle --raw --inline none --format cjs --no-compress src/*.js",
     "prepack": "npm run build",
@@ -53,10 +56,7 @@
   ],
   "author": "The Chromium Authors",
   "contributors": [
-    {
-      "name": "Jason Miller",
-      "email": "developit@google.com"
-    }
+    "Jason Miller <developit@google.com>"
   ],
   "license": "Apache-2.0",
   "devDependencies": {
@@ -84,5 +84,12 @@
   },
   "peerDependencies": {
     "webpack": ">= 4"
+  },
+  "bugs": {
+    "url": "https://github.com/GoogleChromeLabs/worker-plugin/issues"
+  },
+  "homepage": "https://github.com/GoogleChromeLabs/worker-plugin#readme",
+  "directories": {
+    "test": "test"
   }
 }
