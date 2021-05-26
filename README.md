@@ -1,1 +1,1 @@
-#### quick fick for [https://github.com/GoogleChromeLabs/worker-plugin/pull/94](https://github.com/GoogleChromeLabs/worker-plugin/pull/94)
+#### quick fix for [https://github.com/GoogleChromeLabs/worker-plugin/pull/94](https://github.com/GoogleChromeLabs/worker-plugin/pull/94)
